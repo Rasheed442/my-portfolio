@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main p{
+    color: #97DECE;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    color: #97DECE;
+}
+
+
+@media screen and (orientation:portrait) {
+    .container{
+        display: none;
+    }
+}

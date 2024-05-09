@@ -1,0 +1,41 @@
+.header{
+    padding: 55px 25px 25px 25px;
+    color: white;
+}
+.header h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.header span{
+    color: gray;
+    
+}
+.about{
+    display: flex;
+    gap: 90px;
+    font-size: 20px;
+    align-items: center;
+}
+.about span{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.about span:hover{
+    color: #97DECE;
+    margin-right: 20px;
+}
+.projectFolder{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 80px 0px 0px 0px;
+}
+.technologies{
+    display: flex;
+    gap: 15px;
+}
