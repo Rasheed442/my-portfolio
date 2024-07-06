@@ -23,7 +23,7 @@
 }
 .main button{
   width: 12rem;
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,10 +35,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.main button:hover{
+/* .main button:hover{
   transition: 0.1s;
   border: 10px solid #97DECE;
-}
+} */
 
 .line{
   background-color: gray;
@@ -114,6 +114,11 @@
 }
 .expertise p{
   font-size: 20px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 .menuexpertise{
   gap: 15px;

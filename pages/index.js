@@ -47,12 +47,20 @@ export default function Home() {
           artificial intelligence, human-computer interactions,
           <br /> and everything in between.
         </p> */}
-        <Link href="mailto:abdulraufrasheed15@gmail.com">
-          <button data-aos="fade-up" data-aos-duration="1500">
-            {" "}
-            <AiOutlineMail size={20} style={{}} /> Say hi !
-          </button>
-        </Link>
+        <div className={style.btn}>
+          <Link href="mailto:abdulraufrasheed15@gmail.com">
+            <button data-aos="fade-up" data-aos-duration="1500">
+              {" "}
+              <AiOutlineMail size={20} style={{}} /> Let's talk !
+            </button>
+          </Link>
+          <Link href="/">
+            <button data-aos="fade-up" data-aos-duration="1500">
+              {" "}
+              Résumé
+            </button>
+          </Link>
+        </div>
       </div>
 
       <div id="expertise" className={style.headline} data-aos="fade-right">
@@ -80,7 +88,7 @@ export default function Home() {
           <div className={style.menuexpertise}>
             <FaReact size={35} style={{ color: "white" }} />
             <h2 className="">
-              Frontend Dev React,
+              Frontend Dev React JS,
               <br /> Next Js
             </h2>
           </div>
@@ -165,6 +173,14 @@ export default function Home() {
             >
               <BsFillPlayFill />
               <p>Next JS</p>
+            </div>
+            <div
+              className={style.play}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <BsFillPlayFill />
+              <p>React Native</p>
             </div>
 
             <div
