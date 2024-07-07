@@ -26,7 +26,7 @@ function backupcash() {
           </p>
           <Link href="https://mybackupcash.com/">
             <span>
-              Open Project <AiOutlineArrowRight />
+              Visit Live Website <AiOutlineArrowRight />
             </span>
           </Link>
         </div>

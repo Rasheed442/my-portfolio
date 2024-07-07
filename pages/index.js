@@ -13,6 +13,18 @@ import Projects from "../components/Projects";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import {
+  adashi,
+  backupcash,
+  hope,
+  payarena,
+  paymybills,
+  residify,
+  tm30,
+  tmagent,
+  up,
+  wwtbam,
+} from "../public/Clients";
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -27,6 +39,7 @@ export default function Home() {
       <Navbar />
 
       <div className={style.main} id="main">
+        <span>Welcome to my creative space 😉</span>
         <h1>
           Hi, <span style={{ color: " #97DECE" }}>Rasheed</span> here.
         </h1>
@@ -63,12 +76,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="expertise" className={style.headline} data-aos="fade-right">
+      {/* <div id="expertise" className={style.headline} data-aos="fade-right">
         <h1>/. My Expertise /</h1>
         <div className={style.line}></div>
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         // className="flex flex-row justify-between flex-wrap rounded-2xl pl-25 pr-25 m-20 divide-x divide-teal-500 border border-teal-300 "
         className={style.topexpertise}
       >
@@ -111,7 +124,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div id="about" className={style.headline}>
         <h1>/ About</h1>
@@ -129,7 +142,7 @@ export default function Home() {
               Aptech Institution
             </span>
             &nbsp; with two years experience in software engineering and
-            currently a Software Development Engineer at{" "}
+            currently a Software Engineer at{" "}
             <span
               style={{ color: " #97DECE", cursor: "pointer" }}
               onClick={() => (window.location = "https://tm30.net/")}
@@ -148,63 +161,39 @@ export default function Home() {
 
           <p>Here are some technologies i have been working with:</p>
 
-          <div className={style.grid}>
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+          <div
+            className={style.grid}
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>javascript ES6+</p>
             </div>
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>React JS</p>
             </div>
 
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>Next JS</p>
             </div>
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>React Native</p>
             </div>
 
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>Node JS</p>
             </div>
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>Express JS</p>
             </div>
 
-            <div
-              className={style.play}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={style.play}>
               <BsFillPlayFill />
               <p>Postgress </p>
             </div>
@@ -255,6 +244,21 @@ export default function Home() {
             <br />
             tolerant, low cost, and easy to manage/use..
           </p>
+        </div>
+      </div>
+      <div className={style.client}>
+        <p>Clients I've worked with over the years</p>
+        <div className={style.clientimg}>
+          <Image src={hope} alt="" height={70} width={70} />
+          <Image src={wwtbam} alt="" height={70} width={70} />
+          <Image src={paymybills} alt="" height={70} width={70} />
+          <Image src={adashi} alt="" height={70} width={70} />
+          <Image src={tm30} alt="" height={70} width={70} />
+          <Image src={backupcash} alt="" height={70} width={70} />
+          <Image src={payarena} alt="" height={70} width={70} />
+          <Image src={residify} alt="" height={70} width={70} />
+          <Image src={up} alt="" height={70} width={70} />
+          <Image src={tmagent} alt="" height={70} width={70} />
         </div>
       </div>
       <Projects />

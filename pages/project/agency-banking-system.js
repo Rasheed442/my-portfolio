@@ -32,7 +32,7 @@ function agenycybankingsystem() {
 
           <Link href="https://upagentmanager.tm30.net/">
             <span>
-              Open Project <AiOutlineArrowRight />
+              Visit Live Website <AiOutlineArrowRight />
             </span>
           </Link>
         </div>
@@ -44,7 +44,8 @@ function agenycybankingsystem() {
         <Image src={agency4} priority alt="" />
         <Image src={agency5} priority alt="" />
         <Image src={agency6} priority alt="" />
-      </div>;
+      </div>
+      ;
     </ProjectLayout>
   );
 }

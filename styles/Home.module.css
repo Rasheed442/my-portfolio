@@ -10,6 +10,16 @@
   flex-direction: column;
   gap: 30px;
 }
+.main span{
+  border: 1px solid #97DECE;
+  padding: 7px;
+  cursor: pointer;
+  width: 23%;
+    box-shadow: 0px 0px 10px 0px #97DECE;
+  border-radius: 10px;
+}
+.main span:hover{
+}
 .main h1{
   font-size: 5rem;
 }
@@ -67,7 +77,6 @@
 .grid{
   display: grid;
   grid-template-columns: repeat(2,auto);
-  width: 20rem;
   gap: 10px;
   color:  #97DECE;
 }
@@ -76,6 +85,8 @@
   justify-content: center;
   gap: 60px;
   padding: 30px;
+  max-width: 1300px;
+  margin: 0;
 }
 .about img{
   border-radius: 10px;
@@ -85,8 +96,8 @@
 .headline{
   display: flex;
   padding: 25px;
-  margin-top: 10rem;
-  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-left: 7rem;
   color:  #97DECE;
 }
 .headline h1{
@@ -139,7 +150,30 @@
  .topexpertise> :last-child {
    border-right: none;
  }
-
+ .client{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+.client p{
+      box-shadow: 0px 0px 10px 0px #97DECE;
+        border: 1px solid #97DECE;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-style: italic;
+  border-radius: 10px;
+ }
+ .clientimg{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  grid-column-gap: 150px;
+  grid-row-gap: 30px;
+ }
 
 @media screen and (max-width:1000px) {
   .main{

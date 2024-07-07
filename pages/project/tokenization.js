@@ -32,7 +32,8 @@ function tokenization() {
           </p> */}
           <Link href="https://tokenization.vercel.app/">
             <span>
-              Open Project <AiOutlineArrowRight />
+              Visit Live Website <AiOutlineArrowRight />
+              <AiOutlineArrowRight />
             </span>
           </Link>
         </div>
