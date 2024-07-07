@@ -251,26 +251,6 @@ function Projects() {
             </p>
           </div>
         </Link>
-
-        {/* <Link href="https://rashdashboard.vercel.app">
-          {" "}
-          <div
-            className={style.main}
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-             <div className={style.flex}>
-              <div className={style.icon}>
-                <BsFillFolderFill size={25} />
-                <BsGithub size={25} />
-              </div>
-              <h3 className="text-red-500">Rash-Dasg</h3>
-            </div>
-            <p>Static Site</p>
-
-            <p>React JS || Javascript || Next JS</p>
-          </div>
-        </Link> */}
       </div>
 
       <div className={style.footer}>

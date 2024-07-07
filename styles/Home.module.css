@@ -185,6 +185,10 @@
   .experience{
     margin-left: 20px;
   }
+  .clientimg{
+      grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+  }
 }
 @media screen and (max-width:750px) {
  .about{
@@ -202,12 +206,23 @@
   /* .about{
     flex-direction: column;
   } */
+  .clientimg{
+      grid-template-columns: repeat(2, 1fr);
+  }
   .about img{
     width: 25rem;
     height:40rem;
   }
   .main{
     padding: 5rem;
+  }
+}
+@media screen and (max-width:549px) {
+  .experience{
+    padding: 20px;
+  }
+  .btn{
+    flex-direction: column;
   }
 }
 @media screen and (max-width:421px) {
