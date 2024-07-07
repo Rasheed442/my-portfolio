@@ -174,7 +174,7 @@
   grid-column-gap: 150px;
   grid-row-gap: 30px;
  }
-
+/* kk */
 @media screen and (max-width:1000px) {
   .main{
     padding: 10rem;
