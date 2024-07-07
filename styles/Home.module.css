@@ -180,6 +180,9 @@
     padding: 10rem;
     text-align: center;
   }
+  .main span{
+    width: 100%;
+  }
 }
 @media screen and (max-width:835px) {
   .experience{
