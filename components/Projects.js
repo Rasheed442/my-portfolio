@@ -261,7 +261,7 @@ function Projects() {
         <p>All rights reserved &copy;</p>
         <div className={style.socials}>
           <Link
-            href="mailto:abdulraufrasheed15@gmail.com"
+            href="mailto:abdulraufrasheed16@gmail.com"
             style={{ color: "#97DECE" }}
           >
             <AiOutlineMail size={25} />

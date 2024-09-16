@@ -25,10 +25,12 @@ import {
   up,
   wwtbam,
 } from "../public/Clients";
+import { useRouter } from "next/router";
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+  const router = useRouter()
   return (
     <div className={style.container}>
       <Head>
@@ -39,7 +41,7 @@ export default function Home() {
       <Navbar />
 
       <div className={style.main} id="main">
-        <span>Welcome to my creative space 😉</span>
+        <span className={style.inspo}>Welcome to my creative space 😉</span>
         <h1>
           Hi, <span style={{ color: " #97DECE" }}>Rasheed</span> here.
         </h1>
@@ -61,13 +63,13 @@ export default function Home() {
           <br /> and everything in between.
         </p> */}
         <div className={style.btn}>
-          <Link href="mailto:abdulraufrasheed15@gmail.com">
+          <Link href="mailto:abdulraufrasheed16@gmail.com">
             <button data-aos="fade-up" data-aos-duration="1500">
               {" "}
               <AiOutlineMail size={20} style={{}} /> Let's talk !
             </button>
           </Link>
-          <Link href="/">
+          <Link href="https://1drv.ms/w/c/5bd921a9f6c5af87/ESSidn_FIC1Ftc7susUk6kwBpflLCps3iKPZiN4emmsq0w">
             <button data-aos="fade-up" data-aos-duration="1500">
               {" "}
               Résumé
@@ -134,14 +136,14 @@ export default function Home() {
       <div className={style.about}>
         <div className={style.course}>
           <p>
-            A Computer Science major at &nbsp;
+           Bsc Information Technology at &nbsp;
             <span
               style={{ color: " #97DECE", cursor: "pointer" }}
-              onClick={() => (window.location = "https://aptech-nigeria.com/")}
+              onClick={() => (window.location = "https://www.mdx.ac.ae/")}
             >
-              Aptech Institution
+              MIDDLESEX UNIVERSITY DUBAI
             </span>
-            &nbsp; with two years experience in software engineering and
+            &nbsp; with FOUR years experience in software engineering and
             currently a Software Engineer at{" "}
             <span
               style={{ color: " #97DECE", cursor: "pointer" }}
